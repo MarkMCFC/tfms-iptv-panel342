@@ -1,0 +1,16 @@
+name = "tfms-iptv-panel342"
+main = "src/index.js"
+compatibility_date = "2025-09-23"
+workers_dev = true
+
+# Replace the IDs below after creating resources with:
+#   npm run d1:create
+#   npm run kv:create
+[[d1_databases]]
+binding = "DB"
+database_name = "tfms22_iptv_panel_db"
+database_id = "f31fd0c0-e35d-4506-addf-1a1f2d80d2a0"
+
+[[kv_namespaces]]
+binding = "KV_CONNECTIONS"
+id = "6b3e42799f664932ad5a747a9a945372"
